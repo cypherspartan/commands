@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131b">
+  <meta name="description" content="CypherSpartan's live stream chat commands for Twitch, Kick, YouTube and Rumble.">
+  <title>CypherSpartan | Stream Commands</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="CypherSpartan home">
+      <span class="brand-mark">✦</span>
+      <span><strong>CYPHERSPARTAN</strong><small>STREAM COMMAND CENTER</small></span>
+    </a>
+    <span class="live-indicator"><i></i> COMMAND DATABASE</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">THE VIEWER'S FIELD GUIDE</p>
+      <h1>STREAM <span>COMMANDS</span></h1>
+      <p class="hero-copy">Everything you can do in chat, all in one place.</p>
+      <div class="platform-pills" aria-label="Supported platforms">
+        <span class="platform twitch">Twitch</span>
+        <span class="platform kick">Kick</span>
+        <span class="platform youtube">YouTube</span>
+        <span class="platform rumble">Rumble</span>
+      </div>
+    </section>
+
+    <section class="directory" aria-label="Command directory">
+      <div class="toolbar">
+        <label class="search-wrap">
+          <span aria-hidden="true">⌕</span>
+          <input id="search" type="search" placeholder="Search commands or descriptions..." autocomplete="off">
+          <kbd>/</kbd>
+        </label>
+        <div class="result-count" id="result-count" aria-live="polite"></div>
+      </div>
+
+      <div class="filters">
+        <div class="filter-group">
+          <span class="filter-label">PLATFORM</span>
+          <div id="platform-filters" class="filter-buttons"></div>
+        </div>
+        <div class="filter-group">
+          <span class="filter-label">CATEGORY</span>
+          <div id="category-filters" class="filter-buttons"></div>
+        </div>
+      </div>
+
+      <div id="commands" class="command-grid"></div>
+      <div id="empty-state" class="empty-state" hidden>
+        <span>⌕</span>
+        <h2>No commands found</h2>
+        <p>Try another search or clear your filters.</p>
+        <button id="clear-filters" class="secondary-button">Clear filters</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> CYPHERSPARTAN</span>
+    <span>POWERED BY STREAMER.BOT</span>
+  </footer>
+
+  <dialog id="command-dialog">
+    <form method="dialog">
+      <button class="dialog-close" aria-label="Close">×</button>
+    </form>
+    <div id="dialog-content"></div>
+  </dialog>
+  <script src="commands.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

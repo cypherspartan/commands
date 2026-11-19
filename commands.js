@@ -81,19 +81,6 @@ window.STREAM_COMMANDS = [
     "cooldown": "Set in Streamer.bot"
   },
   {
-    "name": "!bankheist",
-    "category": "Games",
-    "description": "Join the community bank heist game.",
-    "usage": "!bankheist",
-    "platforms": [
-      "Twitch",
-      "Kick",
-      "YouTube"
-    ],
-    "permission": "Everyone",
-    "cooldown": "Set in Streamer.bot"
-  },
-  {
     "name": "!highlight",
     "category": "Stream",
     "description": "Mark a moment in the stream and optionally give it a title.",

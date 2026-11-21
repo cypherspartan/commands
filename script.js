@@ -87,6 +87,7 @@ function render() {
 
         const searchable = [
             command.name,
+            command.displayName,
             command.description,
             command.usage,
             command.category
@@ -113,7 +114,7 @@ function render() {
         card.innerHTML = `
             <div class="card-top">
                 <span class="command-name">
-                    ${escapeHtml(command.name)}
+                    ${escapeHtml(command.displayName || command.name)}
                 </span>
 
                 <span class="category-tag">
@@ -179,7 +180,7 @@ function showDetails(command) {
         <p class="eyebrow">COMMAND DETAILS</p>
 
         <h2 class="dialog-command">
-            ${escapeHtml(command.name)}
+            ${escapeHtml(command.displayName || command.name)}
         </h2>
 
         <p class="dialog-description">

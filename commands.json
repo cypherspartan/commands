@@ -1,4 +1,66 @@
+
 {
   "updated": "2026-11-21",
-  "commands": []
+  "commands": [
+    {
+      "name": "!lurk",
+      "displayName": "Lurk",
+      "category": "Chat",
+      "description": "Let chat know you're stepping away while still supporting the stream.",
+      "usage": "!lurk",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!unlurk",
+      "displayName": "Unlurk",
+      "category": "Chat",
+      "description": "Let chat know you're back from lurking.",
+      "usage": "!unlurk",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!gamble",
+      "displayName": "Gamble",
+      "category": "Points",
+      "description": "Wager your platform-specific points.",
+      "usage": "!gamble <amount>",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!slots",
+      "displayName": "Slots",
+      "category": "Games",
+      "description": "Play the slots game using your points.",
+      "usage": "!slots <amount>",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!givepoints",
+      "displayName": "Give Points",
+      "category": "Points",
+      "description": "Give points to another viewer.",
+      "usage": "!givepoints @username <amount>",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Configured in Streamer.bot",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!sprites",
+      "displayName": "Sprites",
+      "category": "Fortnite",
+      "description": "View your Fortnite sprite collection.",
+      "usage": "!sprites owned | !sprites missing",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    }
+  ]
 }

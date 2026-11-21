@@ -56,7 +56,7 @@
       "name": "!sprites",
       "displayName": "Sprites",
       "category": "Fortnite",
-      "description": "View your Fortnite sprite collection.",
+      "description": "View Cypher's Fortnite sprite collection.",
       "usage": "!sprites owned | !sprites missing",
       "platforms": ["Twitch", "YouTube"],
       "permission": "Everyone",

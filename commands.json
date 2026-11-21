@@ -1,3 +1,4 @@
+
 {
   "updated": "2026-11-21",
   "commands": [
@@ -7,10 +8,7 @@
       "category": "Chat",
       "description": "Let chat know you're stepping away while still supporting the stream.",
       "usage": "!lurk",
-      "platforms": [
-        "Twitch",
-        "YouTube"
-      ],
+      "platforms": ["Twitch", "YouTube"],
       "permission": "Everyone",
       "cooldown": "Configured in Streamer.bot"
     },
@@ -20,10 +18,7 @@
       "category": "Fortnite",
       "description": "View Cypher's Fortnite sprite collection.",
       "usage": "!sprites owned | !sprites missing",
-      "platforms": [
-        "Twitch",
-        "YouTube"
-      ],
+      "platforms": ["Twitch", "YouTube"],
       "permission": "Everyone",
       "cooldown": "Configured in Streamer.bot"
     },
@@ -33,10 +28,7 @@
       "category": "Chat",
       "description": "Let chat know you're back from lurking.",
       "usage": "!unlurk",
-      "platforms": [
-        "Twitch",
-        "YouTube"
-      ],
+      "platforms": ["Twitch", "YouTube"],
       "permission": "Everyone",
       "cooldown": "Configured in Streamer.bot"
     },
@@ -46,10 +38,7 @@
       "category": "Points",
       "description": "Wager your platform-specific points.",
       "usage": "!gamble <amount>",
-      "platforms": [
-        "Twitch",
-        "YouTube"
-      ],
+      "platforms": ["Twitch", "YouTube"],
       "permission": "Everyone",
       "cooldown": "Configured in Streamer.bot"
     },
@@ -59,10 +48,7 @@
       "category": "Games",
       "description": "Play the slots game using your points.",
       "usage": "!slots <amount>",
-      "platforms": [
-        "Twitch",
-        "YouTube"
-      ],
+      "platforms": ["Twitch", "YouTube"],
       "permission": "Everyone",
       "cooldown": "Configured in Streamer.bot"
     },
@@ -72,11 +58,248 @@
       "category": "Points",
       "description": "Give points to another viewer.",
       "usage": "!givepoints @username <amount>",
-      "platforms": [
-        "Twitch",
-        "YouTube"
-      ],
+      "platforms": ["Twitch", "YouTube"],
       "permission": "Configured in Streamer.bot",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!bankheist join",
+      "displayName": "Bank Heist Join",
+      "category": "Games",
+      "description": "Join an ongoing bank heist.",
+      "usage": "!bankheist join",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!bankheist <amount>",
+      "displayName": "Bank Heist Start",
+      "category": "Games",
+      "description": "Start a bank heist with the specified amount.",
+      "usage": "!bankheist <amount>",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!Points",
+      "displayName": "Check Points",
+      "category": "Points",
+      "description": "Check your current points balance.",
+      "usage": "!Points",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!commands",
+      "displayName": "Commands",
+      "category": "Chat",
+      "description": "Sends viewers a link to the commands website.",
+      "usage": "!commands",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!crazy",
+      "displayName": "Crazy",
+      "category": "Fun",
+      "description": "Sends a message in chat.",
+      "usage": "!crazy",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!cwm",
+      "displayName": "Custom Welcome Message",
+      "category": "Chat",
+      "description": "Redeems a custom welcome message to have in chat.",
+      "usage": "!cwm",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!d10",
+      "displayName": "Roll a D10",
+      "category": "Games",
+      "description": "Rolls a 10-sided die and posts the result in chat.",
+      "usage": "!d10",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!d100",
+      "displayName": "Roll a D100",
+      "category": "Games",
+      "description": "Rolls a 100-sided die and posts the result in chat.",
+      "usage": "!d100",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!d12",
+      "displayName": "Roll a D12",
+      "category": "Games",
+      "description": "Rolls a 12-sided die and posts the result in chat.",
+      "usage": "!d12",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!d20",
+      "displayName": "Roll a D20",
+      "category": "Games",
+      "description": "Rolls a 20-sided die and posts the result in chat.",
+      "usage": "!d20",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!d4",
+      "displayName": "Roll a D4",
+      "category": "Games",
+      "description": "Rolls a 4-sided die and posts the result in chat.",
+      "usage": "!d4",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!d6",
+      "displayName": "Roll a D6",
+      "category": "Games",
+      "description": "Rolls a 6-sided die and posts the result in chat.",
+      "usage": "!d6",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!d8",
+      "displayName": "Roll a D8",
+      "category": "Games",
+      "description": "Rolls an 8-sided die and posts the result in chat.",
+      "usage": "!d8",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!dadjoke",
+      "displayName": "Dad Joke",
+      "category": "Fun",
+      "description": "Sends a random dad joke in chat.",
+      "usage": "!dadjoke",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!dadjokes",
+      "displayName": "Dad Joke",
+      "category": "Fun",
+      "description": "Alias for the dad joke command.",
+      "usage": "!dadjokes",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!destiny",
+      "displayName": "Destiny 2 Character Info",
+      "category": "Gaming",
+      "description": "Retrieves Destiny 2 character information for the specified player.",
+      "usage": "!destiny <platform> <username>",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!lead",
+      "displayName": "Eat Lead",
+      "category": "Fun",
+      "description": "Redeems a video from Monsters vs. Aliens.",
+      "usage": "!lead",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!enter",
+      "displayName": "Enter Giveaway",
+      "category": "Giveaways",
+      "description": "Enters the viewer into an active giveaway.",
+      "usage": "!enter",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!FreeEpic",
+      "displayName": "Epic Games Free Games",
+      "category": "Gaming",
+      "description": "Shows the free games available from the Epic Games Store.",
+      "usage": "!FreeEpic",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!ero",
+      "displayName": "Ero Nutrition",
+      "category": "Chat",
+      "description": "Sends a message in chat.",
+      "usage": "!ero",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!flip",
+      "displayName": "Flip",
+      "category": "Games",
+      "description": "Flips the text provided in chat.",
+      "usage": "!flip <text>",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!dropbr",
+      "displayName": "Fortnite BR Drop",
+      "category": "Gaming",
+      "description": "Sends a random Fortnite Battle Royale drop location in chat.",
+      "usage": "!dropbr",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!dropog",
+      "displayName": "Fortnite OG Drop",
+      "category": "Gaming",
+      "description": "Sends a random Fortnite OG drop location in chat.",
+      "usage": "!dropog",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
+      "cooldown": "Configured in Streamer.bot"
+    },
+    {
+      "name": "!dog",
+      "displayName": "Fortnite OG Drop",
+      "category": "Gaming",
+      "description": "Alias for the Fortnite OG drop command.",
+      "usage": "!dog",
+      "platforms": ["Twitch", "YouTube"],
+      "permission": "Everyone",
       "cooldown": "Configured in Streamer.bot"
     }
   ]
